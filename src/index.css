@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "clashdisplay";
+  src: url("/fonts/ClashDisplay-Variable.woff2") format("woff2"),
+    url("/fonts/ClashDisplay-Variable.woff") format("woff"),
+    url("/fonts/ClashDisplay-Variable.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+@layer base {
+  :root {
+    --background: 256 48% 11%;
+    --foreground: 0 0% 100%;
+    --primary-1: 288 99% 60%;
+    --primary-2: 266 100% 61%;
+    --accent: 60 4.8% 95.9%;
+    --error: 288 99% 60%;
+
+    --primary-dir: to right;
+    --radius: 0.6rem;
+  }
+  body {
+    @apply bg-background text-foreground font-montserrat;
+  }
+}
+a.active {
+  @apply text-transparent bg-clip-text bg-primary-btn;
+}
