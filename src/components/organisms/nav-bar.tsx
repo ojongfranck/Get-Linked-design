@@ -11,7 +11,7 @@ import NavBarLinks from "./nav-bar-links";
 export default function NavBar() {
   return (
     <>
-      <header className="h-20 border-b-[0.5px] border-b-foreground/15 sticky top-0 mb-8 flex items-center z-50">
+      <header className="h-20 border-b-[0.5px] border-b-foreground/15 sticky top-0 mb-8 flex items-center z-50 backdrop-blur-md">
         <div className="container flex items-center justify-between h-full">
           <Logo />
           <div className="items-center justify-between hidden gap-x-24 md:flex ">

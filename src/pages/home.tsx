@@ -1,5 +1,6 @@
 import Icons from "@/components/molecules/icons";
 import { RegisterButton } from "@/components/organisms/nav-bar";
+import FAQ from "@/components/ui/FAQ";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           <img src={"images/hero.png"} className="w-full max-w-lg mx-auto" />
         </div>
       </div>
+      <FAQ/>
     </div>
   );
 }

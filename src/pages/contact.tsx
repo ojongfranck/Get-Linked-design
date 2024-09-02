@@ -1,5 +1,4 @@
 import ContactForm from "@/components/contact/form";
-import react from "react"
 export default function Contact() {
   return (
     <section>

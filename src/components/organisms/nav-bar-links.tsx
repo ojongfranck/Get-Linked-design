@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import NavLinkItem from "../atoms/nav-link";
 import { ComponentPropsWithoutRef } from "react";
 
-const LINKS = ["#timeline", "#overview", "#FAQs", "contact"] as const;
+const LINKS = ["#timeline", "#overview", "faq", "contact"] as const;
 
 interface NavBarLinksProps extends ComponentPropsWithoutRef<"div"> {}
 export default function NavBarLinks({
