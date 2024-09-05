@@ -1,6 +1,8 @@
 import Icons from "@/components/molecules/icons";
 import { RegisterButton } from "@/components/organisms/nav-bar";
 import FAQ from "@/components/ui/FAQ";
+import Introduction from "@/components/ui/introduction";
+// import introduction from "@/components/ui/introduction";
 
 export default function Home() {
   return (
@@ -29,6 +31,7 @@ export default function Home() {
         </div>
       </div>
       <FAQ/>
+      <Introduction/>
     </div>
   );
 }

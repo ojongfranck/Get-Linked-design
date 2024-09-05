@@ -22,7 +22,7 @@ export default () => {
     <section className="py-20">
       <div className="box">
         <h2 className="font-bold text-3xl text-secondary md:text-4xl lg:text-[45px] text-center">
-          Frequently Asked Questions
+          Frequently Asked <span className="">Questions</span>
         </h2>
         <p className="text-sm text-center mt-6">
           Everything you need to know about Check Me for Cancer warriors and
